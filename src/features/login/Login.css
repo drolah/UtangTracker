@@ -1,0 +1,84 @@
+ .login {
+     min-height: 100vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr
+ }
+
+ .login-hero {
+     background: #2563eb;
+     color: #fff;
+     padding: 12%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center
+ }
+
+ .login-hero svg {
+     width: 55px;
+     height: 55px
+ }
+
+ .login-hero h1 {
+     font-size: 48px;
+     line-height: 1.1;
+     margin: 25px 0 10px
+ }
+
+ .login-card {
+     width: min(420px, 86%);
+     margin: auto;
+     background: #fff;
+     padding: 36px;
+     border-radius: 24px;
+     box-shadow: 0 20px 50px #cbd5e1
+ }
+
+ .login-card small {
+     color: #2563eb;
+     font-weight: 800
+ }
+
+ .login-card h2 {
+     font-size: 32px;
+     margin: 8px 0
+ }
+
+ .login-card label {
+     display: block;
+     font-weight: 700;
+     margin-top: 20px
+ }
+
+ .login-card input {
+     margin-top: 8px
+ }
+
+ .login-card button {
+     width: 100%;
+     margin-top: 22px;
+     background: #2563eb;
+     color: #fff
+ }
+
+ .error {
+     background: #fff7ed;
+     color: #c2410c;
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: 14px
+ }
+
+ @media(max-width:760px) {
+     .login {
+         display: block;
+         padding: 30px
+     }
+
+     .login-hero {
+         display: none
+     }
+
+     .login-card {
+         margin: 8vh auto
+     }
+ }

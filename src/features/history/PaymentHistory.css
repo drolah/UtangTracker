@@ -1,0 +1,17 @@
+ .history h1 {
+     font-size: 34px
+ }
+
+ .history-total {
+     background: #ecfdf5;
+     color: #047857;
+     border-radius: 16px;
+     padding: 20px;
+     margin: 18px 0;
+     width: max-content
+ }
+
+ .history-total b {
+     display: block;
+     font-size: 28px
+ }

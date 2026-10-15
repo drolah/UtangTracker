@@ -1,0 +1,73 @@
+ .back {
+     background: transparent;
+     color: #334155;
+     padding-left: 0
+ }
+
+ .back svg,
+ h3 svg {
+     width: 18px
+ }
+
+ .ledger h1 {
+     font-size: 34px;
+     margin-bottom: 4px
+ }
+
+ .ledger-metrics {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 14px;
+     margin: 22px 0
+ }
+
+ .ledger-metrics article {
+     background: #fff;
+     padding: 20px;
+     border: 1px solid #e2e8f0;
+     border-radius: 16px;
+     color: #64748b
+ }
+
+ .ledger-metrics b {
+     display: block;
+     font-size: 25px;
+     color: #0f172a;
+     margin-top: 6px
+ }
+
+ .ledger-grid {
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     gap: 18px
+ }
+
+ .line {
+     display: flex;
+     justify-content: space-between;
+     padding: 12px 0;
+     border-bottom: 1px solid #e2e8f0
+ }
+
+ .ledger form {
+     display: grid;
+     gap: 9px;
+     background: #f8fafc;
+     padding: 16px;
+     border-radius: 14px;
+     margin-top: 18px
+ }
+
+ .ledger h3 {
+     display: flex;
+     gap: 7px;
+     align-items: center
+ }
+
+ @media(max-width:760px) {
+
+     .ledger-metrics,
+     .ledger-grid {
+         grid-template-columns: 1fr
+     }
+ }

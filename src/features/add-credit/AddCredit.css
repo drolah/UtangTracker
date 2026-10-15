@@ -1,0 +1,87 @@
+ .add-credit {
+     max-width: 900px;
+     margin: auto
+ }
+
+ .add-credit h1 {
+     font-size: 34px
+ }
+
+ .add-credit form {
+     display: grid;
+     gap: 18px
+ }
+
+ .form-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 16px
+ }
+
+ .form-grid h2,
+ .wide {
+     grid-column: 1/-1
+ }
+
+ label {
+     font-weight: 700;
+     font-size: 14px
+ }
+
+ .input-name, .input-address {
+    text-transform: capitalize;
+ }
+
+ label input,
+ label textarea {
+     margin-top: 7px
+ }
+
+ .form-title {
+     display: flex;
+     justify-content: space-between;
+     align-items: center
+ }
+
+ .item-row {
+     display: grid;
+     grid-template-columns: 1fr 90px 130px 130px;
+     gap: 8px;
+     align-items: center;
+     padding: 8px;
+     background: #f8fafc;
+     margin-bottom: 8px;
+     border-radius: 10px
+ }
+
+ .grand {
+     margin-left: auto;
+     background: #2563eb;
+     color: #fff;
+     width: max-content;
+     padding: 15px 20px;
+     border-radius: 14px
+ }
+
+ .grand b {
+     display: block;
+     font-size: 25px
+ }
+
+ .save {
+     margin-left: auto;
+     padding: 14px 28px
+ }
+
+ @media(max-width:650px) {
+
+     .form-grid,
+     .item-row {
+         grid-template-columns: 1fr
+     }
+
+     .wide,
+     .form-grid h2 {
+         grid-column: auto
+     }
+ }
